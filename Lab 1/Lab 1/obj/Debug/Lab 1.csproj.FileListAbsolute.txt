@@ -1,0 +1,5 @@
+G:\Enterprise Computing\Lab 1\Lab 1\Lab 1\bin\Lab 1.dll
+G:\Enterprise Computing\Lab 1\Lab 1\Lab 1\bin\Lab 1.pdb
+G:\Enterprise Computing\Lab 1\Lab 1\Lab 1\obj\Debug\ResolveAssemblyReference.cache
+G:\Enterprise Computing\Lab 1\Lab 1\Lab 1\obj\Debug\Lab 1.dll
+G:\Enterprise Computing\Lab 1\Lab 1\Lab 1\obj\Debug\Lab 1.pdb
