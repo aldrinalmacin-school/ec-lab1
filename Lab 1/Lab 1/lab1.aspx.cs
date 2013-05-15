@@ -20,15 +20,20 @@ namespace Lab_1
             PasswordEnteredLabel.Text = "Password: " + PasswordTextBox.Text;
             FullAddressEnteredLabel.Text = "Full Address: " + AddressTextArea.Text;
             EducationLevelEnteredLabel.Text = "Education Label: " + EducationLevelRadioButtonList.SelectedItem.Text;
-            if(HaveLaptopCheckBox.Checked)
+            if (HaveLaptopCheckBox.Checked)
             {
-                HaveLaptopEnteredLabel.Text = "Have Laptop: ";
+                HaveLaptopEnteredLabel.Text = "Have Laptop: Yes";
+            }
+            else
+            {
+                HaveLaptopEnteredLabel.Text = "Have Laptop: No";
             }
             SkillsEnteredLabel.Text = "Skills: ";
             foreach (ListItem item in SkillsCheckBoxList.Items)
             {
+                SkillsEnteredLabel.Text += (item.Text + "<br />");
             }
-            ProvinceEnteredLabel.Text = "Province: " + ProvinceDropDownList.Text;
+            ProvinceEnteredLabel.Text = "Province: " + ProvinceDropDownList.SelectedItem.Text;
         }
     }
 }
